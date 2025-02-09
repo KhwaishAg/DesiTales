@@ -1,0 +1,50 @@
+.feedback-form-container {
+    max-width: 500px; /* Set a fixed width */
+    width: 90%; /* Responsive */
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f16a45, #e7603a); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.feedback-form-container h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.feedback-form-container label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.feedback-form-container input,
+.feedback-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box; /* Prevents overflow */
+}
+
+.feedback-form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: #f16a45;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form-container button:hover {
+    background-color: #e7603a;
+    color: white;
+}
